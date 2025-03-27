@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Grid Layouts for Large Devices</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    /* Some custom styles to beautify this example */
+    p{
+        padding: 50px;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        background: #dbdfe5;
+    }
+</style>
+</head>
+<body>
+    <h2 class="text-center mt-3">Bootstrap Responsive Layout</h2>
+	<div class="text-center my-3">Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works.</div>
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-4"><p>Box 1</p></div>
+            <div class="col-xl-4"><p>Box 2</p></div>
+            <div class="col-xl-4"><p>Box 3</p></div>
+            <div class="col-xl-4"><p>Box 4</p></div>
+            <div class="col-xl-4"><p>Box 5</p></div>
+            <div class="col-xl-4"><p>Box 6</p></div>
+            <div class="col-xl-4"><p>Box 7</p></div>
+            <div class="col-xl-4"><p>Box 8</p></div>
+            <div class="col-xl-4"><p>Box 9</p></div>
+            <div class="col-xl-4"><p>Box 10</p></div>
+            <div class="col-xl-4"><p>Box 11</p></div>
+            <div class="col-xl-4"><p>Box 12</p></div>
+        </div>
+    </div>
+</body>
+</html>
